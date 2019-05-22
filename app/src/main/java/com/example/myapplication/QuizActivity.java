@@ -146,7 +146,7 @@ public class QuizActivity extends AppCompatActivity {
 
 
     }
-    private void showSolution(){
+    private void showSolution(){ //To narazie nic nie robi ale bedzie robilo
         if(currentQuestion.getAnswerNr()==1 && AnswerNr == 1){
             textViewQuestion.setText("Good answer");
         }
