@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout2"
@@ -26,10 +26,7 @@
         android:id="@+id/button_quiz"
         android:layout_width="238dp"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginVertical="450dp"
-        android:text="QuizActivity"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="279dp" />
+        android:text="quiz"
+        />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
